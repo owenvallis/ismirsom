@@ -1,3 +1,5 @@
+Dimitri Diakopoulos, Owen Vallis, Jordan Hochenbaum, Jim Murphy, Ajay Kapur
+
 The performance of electronica by Disc Jockys (DJs) 
 presents a unique opportunity to develop interactions between performer and music. Through recent research in 
 the MIR field, new tools for expanding DJ performance 
