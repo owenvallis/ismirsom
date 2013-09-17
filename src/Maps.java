@@ -46,7 +46,7 @@ public class Maps extends PApplet implements TuioObserver{
 	ArrayList<SOMButton> buttons;
 
 	int iter;
-	int maxIters = 2000;
+	int maxIters = 200;
 	int screenW = 1280;
 	int screenH = 750;
 
@@ -120,7 +120,7 @@ public class Maps extends PApplet implements TuioObserver{
 
 		minim = new Minim(this);
 		player = new SOMMusicPlayer(numberOfXnodes,numberOfYnodes,this);
-		song = minim.loadFile(data.songs.get(0).name + ".wav");
+		song = minim.loadFile(data.songs.get(0).name + ".mp3");
 
 		colorMode(PConstants.RGB, (float) 1.0);
 		//Setup Text
@@ -471,7 +471,7 @@ public class Maps extends PApplet implements TuioObserver{
 		iter = 1;
 		learnDecay = som.learnRate;
 		radiusDecay = max(som.numberOfXnodes, som.numberOfYnodes) / 2;
-		song = minim.loadFile(data.songs.get(0).name + ".wav");
+		song = minim.loadFile(data.songs.get(0).name + ".mp3");
 		bGo = false;
 		udt.updateText("Reset");
 		flag = true;

@@ -31,7 +31,7 @@ public class SOMMusicPlayer {
 			//System.out.println(cursorY + " " + pixPerNodeH + " " + locationY + " " + (cursorY/pixPerNodeH));
 			//System.out.println(p.data.songs.get(p.som.nodes[locationX][locationY].trueVectorLocation).name);
 			p.udt.updateText(p.data.songs.get(p.som.nodes[locationX][locationY].trueVectorLocation).name);
-			p.song = p.minim.loadFile(p.data.songs.get(p.som.nodes[locationX][locationY].trueVectorLocation).name + ".wav");
+			p.song = p.minim.loadFile(p.data.songs.get(p.som.nodes[locationX][locationY].trueVectorLocation).name + ".mp3");
 			p.song.play();			
 		}
 		else{
