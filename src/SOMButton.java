@@ -3,18 +3,17 @@ import processing.core.PConstants;
 
 public class SOMButton implements TuioObserver{
 	
-	Maps p;
 	TuioSubject tuioHandler;
 	float r, g, b;
-	int xPos;
+	int xPos, yPos;
 	String name;
 	
-	public SOMButton(Maps p, float r, float g, float b, int xPos, String name){
-		this.p = p;
+	public SOMButton(float r, float g, float b, int xPos, int yPos, String name){
 		this.r = r;
 		this.g = g;
 		this.b = b;
 		this.xPos = xPos;
+		this.yPos = yPos;
 		this.name = name;
 		
 		// create main program controllers

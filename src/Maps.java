@@ -46,7 +46,7 @@ public class Maps extends PApplet implements TuioObserver{
 	ArrayList<SOMButton> buttons;
 
 	int iter;
-	int maxIters = 200;
+	int maxIters = 2000;
 	int screenW = 1280;
 	int screenH = 750;
 
